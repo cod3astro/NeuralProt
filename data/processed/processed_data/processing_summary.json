@@ -1,0 +1,58 @@
+{
+  "reproductive_process": {
+    "group_name": "reproductive_process",
+    "n_proteins": 6483,
+    "n_go_terms": 129,
+    "label_density": 0.027388,
+    "avg_terms_per_protein": 3.53,
+    "skipped_no_seq": 0
+  },
+  "interspecies_interaction": {
+    "group_name": "interspecies_interaction",
+    "n_proteins": 9073,
+    "n_go_terms": 168,
+    "label_density": 0.034412,
+    "avg_terms_per_protein": 5.78,
+    "skipped_no_seq": 0
+  },
+  "immune_system_process": {
+    "group_name": "immune_system_process",
+    "n_proteins": 5079,
+    "n_go_terms": 148,
+    "label_density": 0.040063,
+    "avg_terms_per_protein": 5.93,
+    "skipped_no_seq": 0
+  },
+  "molecular_transducer": {
+    "group_name": "molecular_transducer",
+    "n_proteins": 3046,
+    "n_go_terms": 50,
+    "label_density": 0.067814,
+    "avg_terms_per_protein": 3.39,
+    "skipped_no_seq": 0
+  },
+  "mf_regulator_activity": {
+    "group_name": "mf_regulator_activity",
+    "n_proteins": 12258,
+    "n_go_terms": 138,
+    "label_density": 0.038239,
+    "avg_terms_per_protein": 5.28,
+    "skipped_no_seq": 0
+  },
+  "homeostatic_process": {
+    "group_name": "homeostatic_process",
+    "n_proteins": 6068,
+    "n_go_terms": 124,
+    "label_density": 0.045818,
+    "avg_terms_per_protein": 5.68,
+    "skipped_no_seq": 0
+  },
+  "atp_dependent_activity": {
+    "group_name": "atp_dependent_activity",
+    "n_proteins": 3410,
+    "n_go_terms": 54,
+    "label_density": 0.046215,
+    "avg_terms_per_protein": 2.5,
+    "skipped_no_seq": 0
+  }
+}

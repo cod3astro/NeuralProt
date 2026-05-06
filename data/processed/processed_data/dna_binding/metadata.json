@@ -1,0 +1,11 @@
+{
+  "group_name": "dna_binding",
+  "n_proteins": 5902,
+  "n_go_terms": 34,
+  "n_terms_removed": 74,
+  "n_proteins_dropped": 14,
+  "label_density": 0.138178,
+  "avg_terms_per_protein": 4.7,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

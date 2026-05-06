@@ -1,0 +1,11 @@
+{
+  "group_name": "protein_transport",
+  "n_proteins": 2390,
+  "n_go_terms": 36,
+  "n_terms_removed": 44,
+  "n_proteins_dropped": 13,
+  "label_density": 0.055207,
+  "avg_terms_per_protein": 1.99,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

@@ -1,0 +1,11 @@
+{
+  "group_name": "rna_binding",
+  "n_proteins": 4555,
+  "n_go_terms": 38,
+  "n_terms_removed": 42,
+  "n_proteins_dropped": 34,
+  "label_density": 0.042856,
+  "avg_terms_per_protein": 1.63,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

@@ -1,0 +1,13 @@
+{
+  "group_name": "ligase_activity",
+  "parent_group": "see split config",
+  "n_proteins": 1265,
+  "n_go_terms": 24,
+  "n_terms_removed": 141,
+  "n_proteins_dropped": 78,
+  "label_density": 0.088109,
+  "avg_terms_per_protein": 2.11,
+  "skipped_no_seq": 0,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

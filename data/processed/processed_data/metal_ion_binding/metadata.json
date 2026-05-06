@@ -1,0 +1,11 @@
+{
+  "group_name": "metal_ion_binding",
+  "n_proteins": 15203,
+  "n_go_terms": 16,
+  "n_terms_removed": 8,
+  "n_proteins_dropped": 7,
+  "label_density": 0.110332,
+  "avg_terms_per_protein": 1.77,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

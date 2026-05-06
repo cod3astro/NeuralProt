@@ -1,0 +1,11 @@
+{
+  "group_name": "ion_transport",
+  "n_proteins": 3097,
+  "n_go_terms": 49,
+  "n_terms_removed": 57,
+  "n_proteins_dropped": 0,
+  "label_density": 0.106825,
+  "avg_terms_per_protein": 5.23,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

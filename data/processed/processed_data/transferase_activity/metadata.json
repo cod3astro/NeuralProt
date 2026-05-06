@@ -1,0 +1,11 @@
+{
+  "group_name": "transferase_activity",
+  "n_proteins": 15919,
+  "n_go_terms": 154,
+  "n_terms_removed": 1656,
+  "n_proteins_dropped": 159,
+  "label_density": 0.026244,
+  "avg_terms_per_protein": 4.04,
+  "min_term_freq": 50,
+  "propagation": "True Path Rule applied"
+}

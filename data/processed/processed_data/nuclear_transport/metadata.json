@@ -1,0 +1,11 @@
+{
+  "group_name": "nuclear_transport",
+  "n_proteins": 953,
+  "n_go_terms": 13,
+  "n_terms_removed": 10,
+  "n_proteins_dropped": 0,
+  "label_density": 0.28493,
+  "avg_terms_per_protein": 3.7,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

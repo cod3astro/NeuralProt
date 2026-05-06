@@ -1,0 +1,11 @@
+{
+  "group_name": "lyase_activity",
+  "n_proteins": 4756,
+  "n_go_terms": 75,
+  "n_terms_removed": 577,
+  "n_proteins_dropped": 103,
+  "label_density": 0.031539,
+  "avg_terms_per_protein": 2.37,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

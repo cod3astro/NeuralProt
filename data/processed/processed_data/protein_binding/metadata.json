@@ -1,0 +1,12 @@
+{
+  "group_name": "protein_binding",
+  "n_proteins": 23208,
+  "n_go_terms": 97,
+  "n_terms_removed": 570,
+  "n_proteins_dropped": 533,
+  "label_density": 0.030159,
+  "avg_terms_per_protein": 2.93,
+  "skipped_no_seq": 0,
+  "min_term_freq": 100,
+  "propagation": "True Path Rule applied"
+}

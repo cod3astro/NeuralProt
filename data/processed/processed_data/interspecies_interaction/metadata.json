@@ -1,0 +1,11 @@
+{
+  "group_name": "interspecies_interaction",
+  "n_proteins": 8924,
+  "n_go_terms": 111,
+  "label_density": 0.050995,
+  "avg_terms_per_protein": 5.66,
+  "skipped_no_seq": 0,
+  "dropped_zero_labels": 149,
+  "min_term_freq": 50,
+  "propagation": "True Path Rule applied \u2014 ancestor terms included"
+}

@@ -1,0 +1,11 @@
+{
+  "group_name": "homeostatic_process",
+  "n_proteins": 6024,
+  "n_go_terms": 88,
+  "label_density": 0.06267,
+  "avg_terms_per_protein": 5.51,
+  "skipped_no_seq": 0,
+  "dropped_zero_labels": 44,
+  "min_term_freq": 50,
+  "propagation": "True Path Rule applied \u2014 ancestor terms included"
+}

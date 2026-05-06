@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap');
+
+:root {
+  --teal:        #1D9E75;
+  --teal-light:  #5DCAA5;
+  --teal-dim:    #E1F5EE;
+  --teal-deep:   #0F6E56;
+  --blue:        #185FA5;
+  --blue-dim:    #E6F1FB;
+  --amber:       #854F0B;
+  --amber-dim:   #FAEEDA;
+  --surface:     #FFFFFF;
+  --surface-2:   #F7F8F9;
+  --surface-3:   #F0F2F4;
+  --border:      #E4E7EB;
+  --border-2:    #D1D5DB;
+  --text-1:      #0F1117;
+  --text-2:      #4B5563;
+  --text-3:      #9CA3AF;
+  --font-sans:   'DM Sans', sans-serif;
+  --font-mono:   'DM Mono', monospace;
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   16px;
+  --radius-xl:   22px;
+  --shadow-sm:   0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md:   0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.04);
+  --shadow-lg:   0 12px 32px rgba(0,0,0,0.10), 0 4px 8px rgba(0,0,0,0.06);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { -webkit-font-smoothing: antialiased; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--surface-2);
+  color: var(--text-1);
+  min-height: 100vh;
+  font-weight: 500;
+}
+
+button { font-family: var(--font-sans); cursor: pointer; font-weight: 500; }
+textarea, input { font-family: var(--font-mono); font-weight: 500; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 3px; }
+
+.mono { font-family: var(--font-mono); }
+.teal { color: var(--teal); }
+.blue { color: var(--blue); }
+.muted { color: var(--text-2); }
+.dim { color: var(--text-3); }

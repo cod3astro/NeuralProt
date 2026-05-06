@@ -1,0 +1,13 @@
+{
+  "group_name": "carbohydrate_binding",
+  "parent_group": "see split config",
+  "n_proteins": 757,
+  "n_go_terms": 10,
+  "n_terms_removed": 17,
+  "n_proteins_dropped": 0,
+  "label_density": 0.175561,
+  "avg_terms_per_protein": 1.76,
+  "skipped_no_seq": 0,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

@@ -1,0 +1,11 @@
+{
+  "group_name": "vesicle_mediated_transport",
+  "n_proteins": 3207,
+  "n_go_terms": 38,
+  "n_terms_removed": 47,
+  "n_proteins_dropped": 22,
+  "label_density": 0.075575,
+  "avg_terms_per_protein": 2.87,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

@@ -1,0 +1,12 @@
+{
+  "group_name": "small_molecule_binding",
+  "n_proteins": 27779,
+  "n_go_terms": 57,
+  "n_terms_removed": 134,
+  "n_proteins_dropped": 71,
+  "label_density": 0.127249,
+  "avg_terms_per_protein": 7.25,
+  "skipped_no_seq": 0,
+  "min_term_freq": 75,
+  "propagation": "True Path Rule applied"
+}

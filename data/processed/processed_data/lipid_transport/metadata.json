@@ -1,0 +1,11 @@
+{
+  "group_name": "lipid_transport",
+  "n_proteins": 1239,
+  "n_go_terms": 25,
+  "n_terms_removed": 54,
+  "n_proteins_dropped": 28,
+  "label_density": 0.113027,
+  "avg_terms_per_protein": 2.83,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

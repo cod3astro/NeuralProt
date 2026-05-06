@@ -1,0 +1,11 @@
+{
+  "group_name": "lipid_binding",
+  "n_proteins": 2554,
+  "n_go_terms": 38,
+  "n_terms_removed": 43,
+  "n_proteins_dropped": 16,
+  "label_density": 0.062276,
+  "avg_terms_per_protein": 2.37,
+  "min_term_freq": 25,
+  "propagation": "True Path Rule applied"
+}

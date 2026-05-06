@@ -1,0 +1,9 @@
+{
+  "group_name": "molecular_transducer",
+  "n_proteins": 3046,
+  "n_go_terms": 50,
+  "label_density": 0.067814,
+  "avg_terms_per_protein": 3.39,
+  "skipped_no_seq": 0,
+  "propagation": "True Path Rule applied \u2014 ancestor terms included"
+}

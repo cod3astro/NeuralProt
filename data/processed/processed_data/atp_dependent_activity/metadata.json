@@ -1,0 +1,9 @@
+{
+  "group_name": "atp_dependent_activity",
+  "n_proteins": 3410,
+  "n_go_terms": 54,
+  "label_density": 0.046215,
+  "avg_terms_per_protein": 2.5,
+  "skipped_no_seq": 0,
+  "propagation": "True Path Rule applied \u2014 ancestor terms included"
+}
