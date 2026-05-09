@@ -1,0 +1,376 @@
+{
+  "reproductive_process": {
+    "deepprot": {
+      "fmax": 0.368588,
+      "fmax_threshold": 0.69,
+      "fmax_precision": 0.312903,
+      "fmax_recall": 0.448384,
+      "smin": 9.12176
+    },
+    "baseline": {
+      "fmax": 0.401282,
+      "smin": 9.530491
+    },
+    "fmax_gain_over_baseline": -0.0327,
+    "smin_improvement": 0.4087,
+    "n_test_proteins": 628,
+    "n_go_terms": 72
+  },
+  "interspecies_interaction": {
+    "deepprot": {
+      "fmax": 0.512313,
+      "fmax_threshold": 0.74,
+      "fmax_precision": 0.460851,
+      "fmax_recall": 0.576712,
+      "smin": 11.501619
+    },
+    "baseline": {
+      "fmax": 0.405939,
+      "smin": 16.016348
+    },
+    "fmax_gain_over_baseline": 0.1064,
+    "smin_improvement": 4.5147,
+    "n_test_proteins": 893,
+    "n_go_terms": 111
+  },
+  "immune_system_process": {
+    "deepprot": {
+      "fmax": 0.514939,
+      "fmax_threshold": 0.65,
+      "fmax_precision": 0.461482,
+      "fmax_recall": 0.582404,
+      "smin": 13.961963
+    },
+    "baseline": {
+      "fmax": 0.438833,
+      "smin": 17.84328
+    },
+    "fmax_gain_over_baseline": 0.0761,
+    "smin_improvement": 3.8813,
+    "n_test_proteins": 505,
+    "n_go_terms": 106
+  },
+  "molecular_transducer": {
+    "deepprot": {
+      "fmax": 0.861268,
+      "fmax_threshold": 0.84,
+      "fmax_precision": 0.87397,
+      "fmax_recall": 0.848931,
+      "smin": 2.186773
+    },
+    "baseline": {
+      "fmax": 0.660399,
+      "smin": 6.922317
+    },
+    "fmax_gain_over_baseline": 0.2009,
+    "smin_improvement": 4.7355,
+    "n_test_proteins": 305,
+    "n_go_terms": 50
+  },
+  "mf_regulator_activity": {
+    "deepprot": {
+      "fmax": 0.61431,
+      "fmax_threshold": 0.7,
+      "fmax_precision": 0.552806,
+      "fmax_recall": 0.691213,
+      "smin": 8.382594
+    },
+    "baseline": {
+      "fmax": 0.331119,
+      "smin": 15.169385
+    },
+    "fmax_gain_over_baseline": 0.2832,
+    "smin_improvement": 6.7868,
+    "n_test_proteins": 1225,
+    "n_go_terms": 98
+  },
+  "homeostatic_process": {
+    "deepprot": {
+      "fmax": 0.555763,
+      "fmax_threshold": 0.74,
+      "fmax_precision": 0.534437,
+      "fmax_recall": 0.578862,
+      "smin": 9.009736
+    },
+    "baseline": {
+      "fmax": 0.40006,
+      "smin": 13.428255
+    },
+    "fmax_gain_over_baseline": 0.1557,
+    "smin_improvement": 4.4185,
+    "n_test_proteins": 603,
+    "n_go_terms": 88
+  },
+  "atp_dependent_activity": {
+    "deepprot": {
+      "fmax": 0.804831,
+      "fmax_threshold": 0.75,
+      "fmax_precision": 0.757951,
+      "fmax_recall": 0.857893,
+      "smin": 3.004928
+    },
+    "baseline": {
+      "fmax": 0.277327,
+      "smin": 8.444968
+    },
+    "fmax_gain_over_baseline": 0.5275,
+    "smin_improvement": 5.44,
+    "n_test_proteins": 341,
+    "n_go_terms": 54
+  },
+  "oxidoreductase_activity": {
+    "deepprot": {
+      "fmax": 0.629254,
+      "fmax_threshold": 0.84,
+      "fmax_precision": 0.609386,
+      "fmax_recall": 0.650462,
+      "smin": 6.277821
+    },
+    "baseline": {
+      "fmax": 0.254817,
+      "smin": 12.166684
+    },
+    "fmax_gain_over_baseline": 0.3744,
+    "smin_improvement": 5.8889,
+    "n_test_proteins": 868,
+    "n_go_terms": 159
+  },
+  "transferase_activity": {
+    "deepprot": {
+      "fmax": 0.53501,
+      "fmax_threshold": 0.82,
+      "fmax_precision": 0.50245,
+      "fmax_recall": 0.572083,
+      "smin": 8.797778
+    },
+    "baseline": {
+      "fmax": 0.2659,
+      "smin": 14.443007
+    },
+    "fmax_gain_over_baseline": 0.2691,
+    "smin_improvement": 5.6452,
+    "n_test_proteins": 1592,
+    "n_go_terms": 154
+  },
+  "hydrolase_activity": {
+    "deepprot": {
+      "fmax": 0.603463,
+      "fmax_threshold": 0.72,
+      "fmax_precision": 0.519438,
+      "fmax_recall": 0.719919,
+      "smin": 8.635091
+    },
+    "baseline": {
+      "fmax": 0.337301,
+      "smin": 13.485668
+    },
+    "fmax_gain_over_baseline": 0.2662,
+    "smin_improvement": 4.8506,
+    "n_test_proteins": 1516,
+    "n_go_terms": 131
+  },
+  "lyase_activity": {
+    "deepprot": {
+      "fmax": 0.694744,
+      "fmax_threshold": 0.85,
+      "fmax_precision": 0.769409,
+      "fmax_recall": 0.633288,
+      "smin": 3.518904
+    },
+    "baseline": {
+      "fmax": 0.288229,
+      "smin": 8.538567
+    },
+    "fmax_gain_over_baseline": 0.4065,
+    "smin_improvement": 5.0197,
+    "n_test_proteins": 476,
+    "n_go_terms": 75
+  },
+  "ion_transport": {
+    "deepprot": {
+      "fmax": 0.792764,
+      "fmax_threshold": 0.51,
+      "fmax_precision": 0.726324,
+      "fmax_recall": 0.872582,
+      "smin": 4.001765
+    },
+    "baseline": {
+      "fmax": 0.638219,
+      "smin": 8.882079
+    },
+    "fmax_gain_over_baseline": 0.1545,
+    "smin_improvement": 4.8803,
+    "n_test_proteins": 310,
+    "n_go_terms": 49
+  },
+  "vesicle_mediated_transport": {
+    "deepprot": {
+      "fmax": 0.616138,
+      "fmax_threshold": 0.76,
+      "fmax_precision": 0.627023,
+      "fmax_recall": 0.605625,
+      "smin": 5.316519
+    },
+    "baseline": {
+      "fmax": 0.359445,
+      "smin": 8.81845
+    },
+    "fmax_gain_over_baseline": 0.2567,
+    "smin_improvement": 3.5019,
+    "n_test_proteins": 321,
+    "n_go_terms": 38
+  },
+  "protein_transport": {
+    "deepprot": {
+      "fmax": 0.71279,
+      "fmax_threshold": 0.54,
+      "fmax_precision": 0.654292,
+      "fmax_recall": 0.782775,
+      "smin": 2.755697
+    },
+    "baseline": {
+      "fmax": 0.479353,
+      "smin": 4.981914
+    },
+    "fmax_gain_over_baseline": 0.2334,
+    "smin_improvement": 2.2262,
+    "n_test_proteins": 239,
+    "n_go_terms": 36
+  },
+  "lipid_transport": {
+    "deepprot": {
+      "fmax": 0.849244,
+      "fmax_threshold": 0.64,
+      "fmax_precision": 0.851535,
+      "fmax_recall": 0.846966,
+      "smin": 1.882057
+    },
+    "baseline": {
+      "fmax": 0.417392,
+      "smin": 6.718912
+    },
+    "fmax_gain_over_baseline": 0.4319,
+    "smin_improvement": 4.8369,
+    "n_test_proteins": 124,
+    "n_go_terms": 25
+  },
+  "nuclear_transport": {
+    "deepprot": {
+      "fmax": 0.878852,
+      "fmax_threshold": 0.63,
+      "fmax_precision": 0.904229,
+      "fmax_recall": 0.854861,
+      "smin": 1.407191
+    },
+    "baseline": {
+      "fmax": 0.673347,
+      "smin": 3.189933
+    },
+    "fmax_gain_over_baseline": 0.2055,
+    "smin_improvement": 1.7827,
+    "n_test_proteins": 96,
+    "n_go_terms": 13
+  },
+  "protein_binding": {
+    "deepprot": {
+      "fmax": 0.375285,
+      "fmax_threshold": 0.61,
+      "fmax_precision": 0.273107,
+      "fmax_recall": 0.599625,
+      "smin": 9.156812
+    },
+    "baseline": {
+      "fmax": 0.301769,
+      "smin": 10.567645
+    },
+    "fmax_gain_over_baseline": 0.0735,
+    "smin_improvement": 1.4108,
+    "n_test_proteins": 2321,
+    "n_go_terms": 97
+  },
+  "dna_binding": {
+    "deepprot": {
+      "fmax": 0.735916,
+      "fmax_threshold": 0.41,
+      "fmax_precision": 0.628568,
+      "fmax_recall": 0.887482,
+      "smin": 3.045593
+    },
+    "baseline": {
+      "fmax": 0.682621,
+      "smin": 3.66072
+    },
+    "fmax_gain_over_baseline": 0.0533,
+    "smin_improvement": 0.6151,
+    "n_test_proteins": 591,
+    "n_go_terms": 34
+  },
+  "rna_binding": {
+    "deepprot": {
+      "fmax": 0.639355,
+      "fmax_threshold": 0.61,
+      "fmax_precision": 0.574158,
+      "fmax_recall": 0.721257,
+      "smin": 2.998072
+    },
+    "baseline": {
+      "fmax": 0.404511,
+      "smin": 4.952325
+    },
+    "fmax_gain_over_baseline": 0.2348,
+    "smin_improvement": 1.9543,
+    "n_test_proteins": 456,
+    "n_go_terms": 38
+  },
+  "lipid_binding": {
+    "deepprot": {
+      "fmax": 0.775904,
+      "fmax_threshold": 0.81,
+      "fmax_precision": 0.812317,
+      "fmax_recall": 0.742615,
+      "smin": 2.700563
+    },
+    "baseline": {
+      "fmax": 0.502618,
+      "smin": 6.046115
+    },
+    "fmax_gain_over_baseline": 0.2733,
+    "smin_improvement": 3.3456,
+    "n_test_proteins": 256,
+    "n_go_terms": 38
+  },
+  "metal_ion_binding": {
+    "deepprot": {
+      "fmax": 0.801697,
+      "fmax_threshold": 0.47,
+      "fmax_precision": 0.726898,
+      "fmax_recall": 0.893655,
+      "smin": 1.327397
+    },
+    "baseline": {
+      "fmax": 0.559075,
+      "smin": 2.184222
+    },
+    "fmax_gain_over_baseline": 0.2426,
+    "smin_improvement": 0.8568,
+    "n_test_proteins": 1521,
+    "n_go_terms": 16
+  },
+  "small_molecule_binding": {
+    "deepprot": {
+      "fmax": 0.725241,
+      "fmax_threshold": 0.51,
+      "fmax_precision": 0.635428,
+      "fmax_recall": 0.844621,
+      "smin": 6.019555
+    },
+    "baseline": {
+      "fmax": 0.661839,
+      "smin": 6.921957
+    },
+    "fmax_gain_over_baseline": 0.0634,
+    "smin_improvement": 0.9024,
+    "n_test_proteins": 2778,
+    "n_go_terms": 57
+  }
+}
