@@ -279,7 +279,7 @@ html, body, #root {
 
 /* Allow horizontal scroll for the results table on mobile */
 .results-table-card {
-  overflow-x: auto !important;
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 }
