@@ -52,3 +52,228 @@ textarea, input { font-family: var(--font-mono); font-weight: 500; }
 .blue { color: var(--blue); }
 .muted { color: var(--text-2); }
 .dim { color: var(--text-3); }
+
+/* ── Responsive / Mobile ───────────────────────────────────── */
+
+html, body, #root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+
+  /* ----- Existing rules (nav, page, etc.) – leave as is ----- */
+  nav {
+    padding: 8px 12px !important;
+    height: auto !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+  }
+  nav span[style] {
+    font-size: 16px !important;
+  }
+  nav > div:nth-child(2) {
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+    display: flex !important;
+    gap: 2px !important;
+  }
+  nav > div:nth-child(2) a {
+    font-size: 13px !important;
+    padding: 5px 14.5px !important;
+    white-space: nowrap;
+  }
+  nav > div:nth-child(3) {
+    display: none !important;
+  }
+  div[style*="maxWidth"] {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  h1 {
+    font-size: 22px !important;
+    letter-spacing: -0.01em !important;
+  }
+  p[style] {
+    font-size: 14px !important;
+  }
+  div[style*="padding: '28px'"],
+  div[style*="padding: '24px 26px'"],
+  div[style*="padding: '22px'"],
+  div[style*="padding: '20px 22px'"] {
+    padding: 12px !important;
+  }
+  div[style*="repeat(4, 1fr)"] {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8px !important;
+  }
+  div[style*="repeat(3, 1fr)"] {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+  }
+  div[style*="1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  div[style*="fontSize: '32px'"],
+  div[style*="fontSize: '28px'"] {
+    font-size: 20px !important;
+  }
+  div[style*="fontSize: '20px'"] {
+    font-size: 16px !important;
+  }
+  div[style*="fontSize: '18px'"] {
+    font-size: 14px !important;
+  }
+  button[style*="padding: '12px 26px'"],
+  button[style*="padding: '13px 36px'"],
+  button[style*="padding: '14px 32px'"] {
+    width: 100% !important;
+    padding: 12px 16px !important;
+  }
+  div[style*="justifyContent: 'space-between'"],
+  div[style*="justifyContent: 'flex-end'"] {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+  }
+  div[style*="fit-content"] {
+    width: 100% !important;
+  }
+  div[style*="fit-content"] button {
+    flex: 1 !important;
+    text-align: center !important;
+  }
+  div[style*="border: '2px dashed'"],
+  div[style*="dashed"] {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  div[style*="auto-fit"] {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+  }
+  div[style*="overflow: 'hidden'"] {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+  div[style*="width: '160px'"],
+  div[style*="width: '150px'"],
+  div[style*="width: '140px'"] {
+    width: 90px !important;
+    font-size: 11px !important;
+  }
+  div[style*="repeat(5, 1fr)"] {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1px !important;
+  }
+  div[style*="gridTemplateColumns: '1fr 1fr'"] {
+    grid-template-columns: 1fr !important;
+  }
+  div[style*="minWidth"] {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+  div[style*="minmax(280px"] {
+    grid-template-columns: 1fr !important;
+  }
+  div[style*="minmax(200px"] {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
+  }
+  div[style*="justifyContent: 'space-between'"][style*="flexWrap"] {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+  textarea {
+    height: 80px !important;
+    font-size: 12px !important;
+  }
+  div[style*="flexWrap: 'wrap'"] button {
+    font-size: 12px !important;
+    padding: 4px 10px !important;
+  }
+  div[style*="fontSize: '22px'"],
+  h2[style*="fontSize: '22px'"] {
+    font-size: 17px !important;
+  }
+  div[style*="fontSize: '16px'"],
+  span[style*="fontSize: '16px'"],
+  p[style*="fontSize: '16px'"] {
+    font-size: 13px !important;
+  }
+  div[style*="fontSize: '15px'"],
+  span[style*="fontSize: '15px'"] {
+    font-size: 13px !important;
+  }
+  div[style*="fontSize: '14px'"],
+  span[style*="fontSize: '14px'"] {
+    font-size: 12px !important;
+  }
+
+  /* ----- NEW RULES: Predict examples ----- */
+  .predict-examples-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 6px !important;
+    width: 100% !important;
+  }
+  .predict-examples-grid button {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    padding: 6px 8px !important;
+    white-space: normal !important;
+  }
+
+  /* ----- NEW RULES: Docs code blocks wrap ----- */
+  .docs-code-block {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+  .docs-code-block code {
+    white-space: pre-wrap !important;
+    word-break: break-all !important;
+    font-size: 12px !important;
+  }
+
+  /* ----- NEW RULE: Docs feature table hidden on mobile ----- */
+  .docs-feature-table {
+    display: none !important;
+  }
+  .docs-feature-table-note {
+    display: block !important;
+  }
+
+  /* ----- NEW RULE: About stats grid 2 columns ----- */
+  .about-stats-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+
+  /* Force the card footer to stack vertically */
+.predict-card-footer {
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 10px !important;
+}
+
+/* Turn the examples into a 2‑column grid */
+.predict-examples-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 6px !important;
+  width: 100% !important;
+}
+
+/* Make each example button fill its grid cell */
+.predict-examples-grid button {
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  padding: 6px 8px !important;
+  white-space: normal !important;
+}
+}

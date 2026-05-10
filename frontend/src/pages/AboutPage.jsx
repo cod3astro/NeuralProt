@@ -221,7 +221,7 @@ export default function AboutPage() {
       {/* Project stats */}
       <div style={styles.card}>
         <div style={styles.cardTitle}>Project statistics</div>
-        <div style={styles.statsGrid}>
+        <div className="about-stats-grid" style={styles.statsGrid}>
           {PROJECT_STATS.map(({ label, value }) => (
             <div key={label} style={styles.statCard}>
               <div style={styles.statValue}>{value}</div>
@@ -269,22 +269,25 @@ export default function AboutPage() {
       </div>
 
       {/* Open source */}
-      <div style={styles.card}>
-        <div style={styles.cardTitle}>Open source</div>
-        <p style={styles.openSourceText}>
-          NeuralProt is released under the MIT License. All code, trained model
-          weights, and threshold configurations are freely available for academic
-          and commercial use.
-        </p>
-        <div style={styles.openSourceLinks}>
-          <a href="https://github.com" target="_blank" rel="noreferrer" style={styles.osBtn}>
-            GitHub repository →
-          </a>
-          <a href="#" style={styles.osBtn}>
-            Download models →
-          </a>
-        </div>
-      </div>
+<div style={styles.card}>
+  <div style={styles.cardTitle}>Open source</div>
+  <p style={styles.openSourceText}>
+    NeuralProt is released under the MIT License. All code, trained model
+    weights, and threshold configurations will be freely available for academic
+    and commercial use.
+  </p>
+  <div style={{ marginBottom: '14px', color: 'var(--amber)', fontWeight: '600', fontSize: '15px' }}>
+    🚧 Coming soon – repository and model download links
+  </div>
+  <div style={styles.openSourceLinks}>
+    <button disabled style={{ ...styles.osBtn, opacity: 0.5, cursor: 'not-allowed' }}>
+      GitHub repository →
+    </button>
+    <button disabled style={{ ...styles.osBtn, opacity: 0.5, cursor: 'not-allowed' }}>
+      Download models →
+    </button>
+  </div>
+</div>
     </div>
   );
 }

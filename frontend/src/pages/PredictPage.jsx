@@ -214,10 +214,10 @@ export default function PredictPage() {
               placeholder="Paste your protein sequence here, e.g. MKTAYIAKQRQISFVK..."
               spellCheck={false}
             />
-            <div style={styles.cardFooter}>
+            <div className="predict-card-footer" style={styles.cardFooter}>
               <div>
                 <div style={styles.exLabel}>Try an example</div>
-                <div style={styles.examples}>
+                <div className="predict-examples-grid" style={styles.examples}>
                   {Object.keys(EXAMPLE_SEQUENCES).map((name) => (
                     <button key={name} onClick={() => loadExample(name)} style={styles.exBtn}>
                       {name}
@@ -305,7 +305,7 @@ export default function PredictPage() {
               )}
             </div>
 
-            <div style={styles.cardFooter}>
+            <div className="predict-card-footer" style={styles.cardFooter}>
               <span style={styles.batchNote}>
                 All sequences are processed in a single request.
                 Results are expandable per sequence.

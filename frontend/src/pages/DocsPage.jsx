@@ -168,7 +168,7 @@ export default function DocsPage() {
                 <div style={styles.stepContent}>
                   <div style={styles.stepLabel}>{step.label}</div>
                   {step.code && (
-                    <div style={styles.codeBlock}>
+                    <div className="docs-code-block" style={styles.codeBlock}>
                       <code style={styles.code}>{step.code}</code>
                     </div>
                   )}
@@ -191,7 +191,10 @@ export default function DocsPage() {
           <span style={styles.sectionNumber}>06</span>
           <h2 style={styles.sectionTitle}>Feature vector reference</h2>
         </div>
-        <div style={styles.featureTable}>
+        <div className="docs-feature-table-note" style={{ display: 'none', padding: '12px', color: 'var(--text-3)', fontSize: '14px' }}>
+             Feature vector reference hidden on small screens.
+            </div>
+        <div className="docs-feature-table" style={styles.featureTable}>
           <div style={styles.featureHeader}>
             <span>Index</span>
             <span>Feature</span>
