@@ -66,7 +66,7 @@ export default function ResultsTable({ predictions }) {
   const visible = showAll ? filtered : filtered.slice(0, 10);
 
   return (
-    <div style={styles.card}>
+    <div className="results-table-card" style={styles.card}>
       {/* Header */}
       <div style={styles.header}>
         <span style={styles.headerTitle}>
@@ -99,7 +99,6 @@ export default function ResultsTable({ predictions }) {
         <span style={styles.legendNote}>How far above the tuned threshold each prediction sits</span>
       </div>
 
-    <div className="results-table-scroll">
       {/* Column headers */}
       <div style={styles.colHead}>
         <span>GO term</span>
@@ -144,7 +143,6 @@ export default function ResultsTable({ predictions }) {
           </a>
         </div>
       ))}
-            </div>
 
       {/* Footer */}
       {filtered.length > 10 && (
