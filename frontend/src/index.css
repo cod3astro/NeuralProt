@@ -277,9 +277,21 @@ html, body, #root {
   white-space: normal !important;
 }
 
-/* Allow horizontal scroll for the results table on mobile */
+/* Force the card to scroll horizontally */
 .results-table-card {
-  overflow-x: auto;
+  overflow-x: auto !important;
   -webkit-overflow-scrolling: touch;
 }
+/* Make the scroll wrapper extend edge‑to‑edge (negate card padding) */
+.results-table-scroll {
+  margin: 0 -22px;
+  padding: 0 22px;
+}
+
+/* Override the 1fr Name column with a fixed 200px width – mobile only */
+.results-table-scroll > div[style*="grid-template-columns"] {
+  grid-template-columns: 110px 200px 130px 130px 120px 46px 30px !important;
+}
+
+
 }

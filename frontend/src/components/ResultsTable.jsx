@@ -99,50 +99,53 @@ export default function ResultsTable({ predictions }) {
         <span style={styles.legendNote}>How far above the tuned threshold each prediction sits</span>
       </div>
 
-      {/* Column headers */}
-      <div style={styles.colHead}>
-        <span>GO term</span>
-        <span>Name</span>
-        <span>Group</span>
-        <span>Confidence</span>
-        <span>Margin</span>
-        <span>NS</span>
-        <span></span>
+      {/* ---------- SCROLLABLE TABLE CONTENT ---------- */}
+      <div className="results-table-scroll">
+  {/* Column headers */}
+  <div style={styles.colHead}>
+    <span>GO term</span>
+    <span>Name</span>
+    <span>Group</span>
+    <span>Confidence</span>
+    <span>Margin</span>
+    <span>NS</span>
+    <span></span>
+  </div>
+
+  {/* Rows */}
+  {visible.map((pred, i) => (
+    <div key={pred.go_term} style={{ ...styles.row, opacity: i >= 8 ? 0.75 : 1 }}>
+      <span style={styles.goId}>{pred.go_term}</span>
+      <span style={styles.goName}>{pred.name}</span>
+      <span style={styles.goGroup}>{pred.group.replace(/_/g, ' ')}</span>
+
+      {/* Confidence */}
+      <div style={styles.confWrap}>
+        <div style={styles.confTrack}>
+          <div style={{ ...styles.confBar, width: `${pred.confidence * 100}%` }} />
+        </div>
+        <span style={styles.confNum}>{pred.confidence.toFixed(4)}</span>
       </div>
 
+      {/* Threshold margin */}
+      <MarginBadge confidence={pred.confidence} threshold={pred.threshold} />
 
-      {/* Rows */}
-      {visible.map((pred, i) => (
-        <div key={pred.go_term} style={{ ...styles.row, opacity: i >= 8 ? 0.75 : 1 }}>
-          <span style={styles.goId}>{pred.go_term}</span>
-          <span style={styles.goName}>{pred.name}</span>
-          <span style={styles.goGroup}>{pred.group.replace(/_/g, ' ')}</span>
-
-          {/* Confidence */}
-          <div style={styles.confWrap}>
-            <div style={styles.confTrack}>
-              <div style={{ ...styles.confBar, width: `${pred.confidence * 100}%` }} />
-            </div>
-            <span style={styles.confNum}>{pred.confidence.toFixed(4)}</span>
-          </div>
-
-          {/* Threshold margin */}
-          <MarginBadge confidence={pred.confidence} threshold={pred.threshold} />
-
-          <span style={{ ...styles.nsBadge, ...(NS_STYLE[NS_ABBREV[pred.namespace] || pred.namespace] || {}) }}>
-            {NS_ABBREV[pred.namespace] || pred.namespace}
-          </span>
-          <a
-            href={uniprotTermUrl(pred.go_term)}
-            target="_blank"
-            rel="noreferrer"
-            style={styles.extLink}
-            title="View on QuickGO"
-          >
-            ↗
-          </a>
-        </div>
-      ))}
+      <span style={{ ...styles.nsBadge, ...(NS_STYLE[NS_ABBREV[pred.namespace] || pred.namespace] || {}) }}>
+        {NS_ABBREV[pred.namespace] || pred.namespace}
+      </span>
+      <a
+        href={uniprotTermUrl(pred.go_term)}
+        target="_blank"
+        rel="noreferrer"
+        style={styles.extLink}
+        title="View on QuickGO"
+      >
+        ↗
+      </a>
+    </div>
+  ))}
+  </div>
+{/* ---------- END SCROLLABLE ---------- */}
 
       {/* Footer */}
       {filtered.length > 10 && (
