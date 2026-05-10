@@ -66,7 +66,7 @@ export default function ResultsTable({ predictions }) {
   const visible = showAll ? filtered : filtered.slice(0, 10);
 
   return (
-    <div style={styles.card}>
+    <div className="results-table-card" style={styles.card}>
       {/* Header */}
       <div style={styles.header}>
         <span style={styles.headerTitle}>

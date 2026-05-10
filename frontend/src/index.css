@@ -276,4 +276,10 @@ html, body, #root {
   padding: 6px 8px !important;
   white-space: normal !important;
 }
+
+/* Allow horizontal scroll for the results table on mobile */
+.results-table-card {
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
 }
