@@ -3,7 +3,6 @@
 // Import individual functions into your page components as needed.
 
 const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
-console.log("API base URL:", BASE_URL); // temporary debug line
 
 // ── Health ────────────────────────────────────────────────────────────────────
 
