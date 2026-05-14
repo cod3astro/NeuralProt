@@ -2,7 +2,7 @@
 // All communication with the NeuralProt FastAPI backend lives here.
 // Import individual functions into your page components as needed.
 
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://localhost:8000";
 
 // ── Health ────────────────────────────────────────────────────────────────────
 

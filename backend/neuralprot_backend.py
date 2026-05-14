@@ -63,8 +63,8 @@ GO_DICT_PATH = os.environ.get("GO_DICT_PATH", "./go_dict.json")
 # Origins allowed to call this API — update with your frontend URL in production
 ALLOWED_ORIGINS = [
     "https://neuralprot.vercel.app",
-    "http://localhost:5173",
-    "http://localhost:3000",
+    "https://localhost:5173",
+    "https://localhost:3000",
 ]
 
 

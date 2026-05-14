@@ -171,7 +171,7 @@ pip install -r requirements.txt
 uvicorn neuralprot_backend:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-Visit `http://localhost:8000/health` to confirm all 22 models are loaded.
+Visit `https://localhost:8000/health` to confirm all 22 models are loaded.
 
 ### Frontend
 
@@ -183,14 +183,14 @@ npm install
 Create `.env` in the frontend folder:
 
 ```
-VITE_API_URL=http://localhost:8000
+VITE_API_URL=https://localhost:8000
 ```
 
 ```bash
 npm run dev
 ```
 
-Open `http://localhost:5173`.
+Open `https://localhost:5173`.
 
 ---
 

@@ -8,7 +8,7 @@
   "failed_groups": [],
   "group_results": {
     "reproductive_process": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.368588,
         "fmax_threshold": 0.69,
         "fmax_precision": 0.312903,
@@ -25,7 +25,7 @@
       "n_go_terms": 72
     },
     "interspecies_interaction": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.512313,
         "fmax_threshold": 0.74,
         "fmax_precision": 0.460851,
@@ -42,7 +42,7 @@
       "n_go_terms": 111
     },
     "immune_system_process": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.514939,
         "fmax_threshold": 0.65,
         "fmax_precision": 0.461482,
@@ -59,7 +59,7 @@
       "n_go_terms": 106
     },
     "molecular_transducer": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.861268,
         "fmax_threshold": 0.84,
         "fmax_precision": 0.87397,
@@ -76,7 +76,7 @@
       "n_go_terms": 50
     },
     "mf_regulator_activity": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.61431,
         "fmax_threshold": 0.7,
         "fmax_precision": 0.552806,
@@ -93,7 +93,7 @@
       "n_go_terms": 98
     },
     "homeostatic_process": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.555763,
         "fmax_threshold": 0.74,
         "fmax_precision": 0.534437,
@@ -110,7 +110,7 @@
       "n_go_terms": 88
     },
     "atp_dependent_activity": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.804831,
         "fmax_threshold": 0.75,
         "fmax_precision": 0.757951,
@@ -127,7 +127,7 @@
       "n_go_terms": 54
     },
     "oxidoreductase_activity": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.629254,
         "fmax_threshold": 0.84,
         "fmax_precision": 0.609386,
@@ -144,7 +144,7 @@
       "n_go_terms": 159
     },
     "transferase_activity": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.53501,
         "fmax_threshold": 0.82,
         "fmax_precision": 0.50245,
@@ -161,7 +161,7 @@
       "n_go_terms": 154
     },
     "hydrolase_activity": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.603463,
         "fmax_threshold": 0.72,
         "fmax_precision": 0.519438,
@@ -178,7 +178,7 @@
       "n_go_terms": 131
     },
     "lyase_activity": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.694744,
         "fmax_threshold": 0.85,
         "fmax_precision": 0.769409,
@@ -195,7 +195,7 @@
       "n_go_terms": 75
     },
     "ion_transport": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.792764,
         "fmax_threshold": 0.51,
         "fmax_precision": 0.726324,
@@ -212,7 +212,7 @@
       "n_go_terms": 49
     },
     "vesicle_mediated_transport": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.616138,
         "fmax_threshold": 0.76,
         "fmax_precision": 0.627023,
@@ -229,7 +229,7 @@
       "n_go_terms": 38
     },
     "protein_transport": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.71279,
         "fmax_threshold": 0.54,
         "fmax_precision": 0.654292,
@@ -246,7 +246,7 @@
       "n_go_terms": 36
     },
     "lipid_transport": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.849244,
         "fmax_threshold": 0.64,
         "fmax_precision": 0.851535,
@@ -263,7 +263,7 @@
       "n_go_terms": 25
     },
     "nuclear_transport": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.878852,
         "fmax_threshold": 0.63,
         "fmax_precision": 0.904229,
@@ -280,7 +280,7 @@
       "n_go_terms": 13
     },
     "protein_binding": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.375285,
         "fmax_threshold": 0.61,
         "fmax_precision": 0.273107,
@@ -297,7 +297,7 @@
       "n_go_terms": 97
     },
     "dna_binding": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.735916,
         "fmax_threshold": 0.41,
         "fmax_precision": 0.628568,
@@ -314,7 +314,7 @@
       "n_go_terms": 34
     },
     "rna_binding": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.639355,
         "fmax_threshold": 0.61,
         "fmax_precision": 0.574158,
@@ -331,7 +331,7 @@
       "n_go_terms": 38
     },
     "lipid_binding": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.775904,
         "fmax_threshold": 0.81,
         "fmax_precision": 0.812317,
@@ -348,7 +348,7 @@
       "n_go_terms": 38
     },
     "metal_ion_binding": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.801697,
         "fmax_threshold": 0.47,
         "fmax_precision": 0.726898,
@@ -365,7 +365,7 @@
       "n_go_terms": 16
     },
     "small_molecule_binding": {
-      "deepprot": {
+      "NeuralProt": {
         "fmax": 0.725241,
         "fmax_threshold": 0.51,
         "fmax_precision": 0.635428,
