@@ -103,7 +103,7 @@ const SECTIONS = [
       {
         label: 'Start the frontend',
         code: 'cd frontend && npm run dev',
-        body: 'Runs the React dev server at http://localhost:5173. Set VITE_API_URL=http://localhost:8000 in a .env file to connect to the backend.',
+        body: 'Runs the React dev server at https://localhost:5173. Set VITE_API_URL=https://localhost:8000 in a .env file to connect to the backend.',
       },
       {
         label: 'Production build',
