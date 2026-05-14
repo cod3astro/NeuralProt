@@ -42,7 +42,7 @@ logger = logging.getLogger(__name__)
 # ─────────────────────────────────────────────────────────────────────────────
 
 PROCESSED_DIR = "C:/Users/USER/Documents/cod3astro/ML_AI/NeuralProt/data/processed/processed_data"
-MODEL_DIR     = "C:/Users/USER/Documents/cod3astro/ML_AI/NeuralProt/model/models"
+MODEL_DIR     = "C:/Users/USER/Documents/cod3astro/ML_AI/NeuralProt/backend/models"
 OUTPUT_DIR    = "C:/Users/USER/Documents/cod3astro/ML_AI/NeuralProt/model/test_evaluation"
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
